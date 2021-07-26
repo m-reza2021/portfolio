@@ -413,7 +413,7 @@ overflow: auto;
 
     #footer{
         flex-direction: column;
-        padding-bottom:20px ;
+        /* padding-bottom:20px ; */
     }
     
 }
