@@ -368,9 +368,9 @@ overflow: auto;
 
 #footer{
     height: 100px;
-    display: grid;
-    align-content: center;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 1200px){
@@ -410,4 +410,10 @@ overflow: auto;
     #contact-form{
         max-width: 320px;
     }
+
+    #footer{
+        flex-direction: column;
+        padding-bottom:20px ;
+    }
+    
 }
