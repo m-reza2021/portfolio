@@ -366,6 +366,13 @@ overflow: auto;
     font-size: 14px;
 }
 
+#footer{
+    height: 100px;
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
+
 @media screen and (max-width: 1200px){
     .main-container{
         width: 95%;
