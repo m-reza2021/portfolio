@@ -385,14 +385,22 @@ overflow: auto;
     }
 }
 @media screen and (max-width: 480px){
+    body *{
+        text-overflow: ellipsis;
+    }
+    
     #preview-shadow{
-        width: 200px;
+        width: 250px;
         display: grid;
         justify-content: center;
         margin-bottom: 20px;
     }
 
     #preview{
-        width: 200px;
+        width: 250px;
+    }
+
+    #contact-form{
+        max-width: 320px;
     }
 }
