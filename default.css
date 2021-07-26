@@ -79,7 +79,7 @@ overflow: auto;
     background-color: var(--secondaryColor);
     border: 1px solid var(--borderColor);
     border-radius: 5px 5px 0 0; 
-
+    overflow-x: auto ;
     --webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0,0.75);
     --moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0,0.75);
     box-shadow: -1px 1px 3px -1px rgba(0,0,0,0,0.75);
@@ -382,5 +382,17 @@ overflow: auto;
 
     .right-column{
         justify-content: center;
+    }
+}
+@media screen and (max-width: 480px){
+    #preview-shadow{
+        width: 200px;
+        display: grid;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    #preview{
+        width: 200px;
     }
 }
