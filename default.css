@@ -405,7 +405,7 @@ overflow: auto;
   .post-p{
       margin: 20px;
       text-align: center;
-    min-height: 200px;
+    min-height: 220px;
   }
 
 @media screen and (max-width: 1200px){
