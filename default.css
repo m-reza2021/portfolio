@@ -53,6 +53,7 @@ h5{font-size: 20px;}
 h6{font-size: 16px;}
 
 
+
 .s1{
 background-color: var(--mainColor);
 border-bottom: 1px solid var(--borderColor);
@@ -381,6 +382,31 @@ overflow: auto;
     margin: 0px;
 }
 
+
+/* post page css */
+.post-img{
+    text-align: center;
+    padding: 15px;
+
+}
+.post-img h5{
+    margin: 10px;
+}
+
+.post-img img{
+    width: 70%; 
+    border: 2px solid var(--borderColor);
+}
+
+.post-img a:hover{
+    opacity: 60%;
+}
+
+  .post-p{
+      margin: 20px;
+      text-align: center;
+  }
+
 @media screen and (max-width: 1200px){
     .main-container{
         width: 95%;
@@ -400,9 +426,7 @@ overflow: auto;
     }
 }
 @media screen and (max-width: 480px){
-    body *{
-        text-overflow: ellipsis;
-    }
+    
     
     #preview-shadow{
         width: 250px;
@@ -422,5 +446,48 @@ overflow: auto;
     #footer{
         flex-direction: column;
     }
+    .post-img img{
+        width: 100%;
+    }
     
+    
+    
+}
+@media screen and (max-width:320px){
+    h1{font-size: 46px;}
+
+    p{
+        font-size: 16px;
+    }
+    #preview-shadow{
+        width: 200px;
+    }
+    #preview{
+        width: 200px;
+    }
+    .skills{
+        flex-direction: column;
+        width: 100%;
+    }
+    .social-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #social_img{
+        width: 100%;
+    }
+    .about-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    body,html{
+        overflow: auto;
+    }
+
+    .post-img img{
+        width: 100%;
+    }
+
 }
